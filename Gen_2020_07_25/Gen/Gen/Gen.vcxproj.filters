@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{9c584b29-748c-4fdf-a73f-1239a32bf4af}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{5326653b-4657-4770-bc76-cd607895ee14}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\Pages">
+      <UniqueIdentifier>{fc0f59a8-e5f6-4e0a-b459-8bca2c529ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dialogs">
+      <UniqueIdentifier>{25c50f7e-67f4-4385-8143-f7b90562d6c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs">
+      <UniqueIdentifier>{098380bf-dadd-4a0f-9821-73e7ff0e16a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Elements">
+      <UniqueIdentifier>{af857f15-842f-42af-8d50-a4d74fd4b2cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Elemetns">
+      <UniqueIdentifier>{b800a21a-8b2f-4a59-b056-bce0df696ba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Creators">
+      <UniqueIdentifier>{195fa24d-7184-47cc-95ed-22fe3166ccae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Creators">
+      <UniqueIdentifier>{7a150eb0-8908-4b67-ac21-29f9fe8bde0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Params">
+      <UniqueIdentifier>{28b3d2ea-6a81-4ff7-9491-197a864ab9e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Params">
+      <UniqueIdentifier>{da34601b-d1b5-498c-bff7-39af22ca8a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Elemetns\Pages">
+      <UniqueIdentifier>{40ab34b0-5929-411e-a46e-38df76bfdcd3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_gen.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DialogBasePage.cpp">
+      <Filter>Source Files\Elemetns\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DialogBaseAux.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DialogBaseAux.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DialogBaseAux.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DialogAddNewMesh.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DialogAddNewMesh.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DialogAddNewMesh.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DialogPageRegMesh.cpp">
+      <Filter>Source Files\Elemetns\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Functional.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_gen.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_gen.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PagesWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PagesWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PagesWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WidgetTree.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WidgetTree.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WidgetTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BaseDrawElem.cpp">
+      <Filter>Source Files\Elemetns</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DrawRegMeshElem.cpp">
+      <Filter>Source Files\Elemetns</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Storage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BaseElemCreator.cpp">
+      <Filter>Source Files\Creators</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RegElemCreator.cpp">
+      <Filter>Source Files\Creators</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MyLineEdit.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MyLineEdit.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MyLineEdit.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BaseElemParams.cpp">
+      <Filter>Source Files\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RegElemParams.cpp">
+      <Filter>Source Files\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DialogPageRegMesh.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DialogPageRegMesh.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DialogBasePage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DialogBasePage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_BaseDrawElem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_BaseDrawElem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SphereElemCreator.cpp">
+      <Filter>Source Files\Creators</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SphereElemParams.cpp">
+      <Filter>Source Files\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DialogPageSphere.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DialogPageSphere.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DialogPageSphere.cpp">
+      <Filter>Source Files\Elemetns\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DrawSphereElem.cpp">
+      <Filter>Source Files\Elemetns</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SurfElemCreator.cpp">
+      <Filter>Source Files\Creators</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DrawSurfElem.cpp">
+      <Filter>Source Files\Elemetns</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DialogPageSurf.cpp">
+      <Filter>Source Files\Elemetns\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DialogPageSurf.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DialogPageSurf.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SurfElemParams.cpp">
+      <Filter>Source Files\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="Face.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Face.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Face.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DrawSurfElem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DrawSurfElem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Scene3D.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Scene3D.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="gen.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gen.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\DialogBaseAux.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\DialogAddNewMesh.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\gen.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\PagesWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\WidgetTree.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\MyLineEdit.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\DialogPageRegMesh.h">
+      <Filter>Header Files\Pages</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\DialogBasePage.h">
+      <Filter>Header Files\Pages</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\BaseDrawElem.h">
+      <Filter>Header Files\Elements</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\DialogPageSphere.h">
+      <Filter>Header Files\Pages</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\DialogPageSurf.h">
+      <Filter>Header Files\Pages</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\SurfElemParams.h">
+      <Filter>Header Files\Params</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Face.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\DrawSurfElem.h">
+      <Filter>Header Files\Elements</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\Scene3D.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_gen.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Functional.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DrawRegMeshElem.h">
+      <Filter>Header Files\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Storage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ObjectFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BaseElemCreator.h">
+      <Filter>Header Files\Creators</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RegElemCreator.h">
+      <Filter>Header Files\Creators</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BaseElemParams.h">
+      <Filter>Header Files\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RegElemParams.h">
+      <Filter>Header Files\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SphereElemCreator.h">
+      <Filter>Header Files\Creators</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SphereElemParams.h">
+      <Filter>Header Files\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DrawSphereElem.h">
+      <Filter>Header Files\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SurfElemCreator.h">
+      <Filter>Header Files\Creators</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Gen.rc" />
+  </ItemGroup>
+</Project>
